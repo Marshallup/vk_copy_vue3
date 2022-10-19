@@ -16,7 +16,7 @@ module.exports = {
         'header-height': '48px',
       },
       fontSize: {
-        sm: ['0.813rem', '1.125rem'],
+        'sm-m': ['0.813rem', '1.125rem'],
       },
     },
   },

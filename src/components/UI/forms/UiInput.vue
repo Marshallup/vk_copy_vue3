@@ -31,7 +31,7 @@
 </script>
 
 <template>
-  <div class="text-grey-100">
+  <div class="w-full text-grey-100">
     <div v-if="label">
       <label :for="inputID" class="block">{{ label }}</label>
     </div>
@@ -46,7 +46,7 @@
       <input
         :id="inputID"
         ref="inputRef"
-        class="block dark:bg-grey-700 outline-none text-sm h-8 rounded-lg"
+        class="block dark:bg-grey-700 outline-none text-sm-m h-8 rounded-lg w-full"
         :class="{
           'pl-8': slots.prepend,
           'pl-3': !slots.prepend,

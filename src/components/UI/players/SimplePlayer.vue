@@ -3,17 +3,20 @@
 </script>
 
 <template>
-  <div class="px-2">
-    <div class="flex items-center">
-      <UiButton class="w-6 h-6 text-grey-600" size="xs">
-        <ForwardIcon />
+  <div class="h-full flex items-center px-2 dark:text-grey-600">
+    <div class="h-full flex items-center gap-x-2">
+      <UiButton class="py-2" icon>
+        <ForwardIcon class="w-6 h-6" />
       </UiButton>
-      <UiButton class="w-6 h-6 text-grey-600" size="xs">
-        <PlayIcon />
+      <UiButton class="py-2" icon>
+        <PlayIcon class="w-6 h-6" />
       </UiButton>
-      <UiButton class="w-6 h-6 text-grey-600" size="xs">
-        <ForwardIcon />
+      <UiButton class="py-2" icon>
+        <ForwardIcon class="w-6 h-6" />
       </UiButton>
+    </div>
+    <div class="pl-4">
+      <div class="text-sm">Poets of the Fall — Late Goodbye</div>
     </div>
   </div>
 </template>

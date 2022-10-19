@@ -1,5 +1,8 @@
 <script setup lang="ts">
-  import { MagnifyingGlassIcon } from '@heroicons/vue/24/solid'
+  import {
+    MagnifyingGlassIcon,
+    Square3Stack3DIcon,
+  } from '@heroicons/vue/24/solid'
   import { BellIcon } from '@heroicons/vue/24/outline'
 </script>
 
@@ -14,7 +17,7 @@
             <VkLogo />
           </div>
         </div>
-        <div class="h-full flex items-center pr-4">
+        <div class="h-full flex items-center pr-4 basis-[300px]">
           <UiInput>
             <template #prepend> <MagnifyingGlassIcon /> </template>
           </UiInput>
@@ -22,14 +25,22 @@
         <div class="h-full">
           <UiButton>
             <div class="w-6 h-6">
-              <BellIcon class="fill-transparent stroke-grey-600" />
+              <BellIcon class="fill-transparent dark:stroke-grey-600" />
             </div>
           </UiButton>
         </div>
-        <div class="h-full">
-          <div class="pr-4">
+        <div class="pl-2 h-full flex-1">
+          <div class="h-full pr-4">
             <SimplePlayer />
           </div>
+        </div>
+        <div class="h-full">
+          <UiButton>
+            <Square3Stack3DIcon class="w-6 h-6 dark:fill-grey-600" />
+          </UiButton>
+        </div>
+        <div class="pl-3 h-full">
+          <ProfileDropdown />
         </div>
       </div>
     </UiContainer>
