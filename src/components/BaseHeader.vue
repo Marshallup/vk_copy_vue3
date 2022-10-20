@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <div class="fixed top-0 left-0 w-full dark:bg-grey-300">
+  <header class="fixed top-0 left-0 w-full dark:bg-grey-300">
     <UiContainer>
       <div class="flex h-header-height">
         <div class="h-full flex">
@@ -17,9 +17,13 @@
             <VkLogo />
           </div>
         </div>
-        <div class="h-full flex items-center pr-4 basis-[300px]">
-          <UiInput>
-            <template #prepend> <MagnifyingGlassIcon /> </template>
+        <div class="h-full flex items-center pr-4 basis-[245px]">
+          <UiInput placeholder="Поиск">
+            <template #prepend
+              ><div class="dark:text-grey-600">
+                <MagnifyingGlassIcon />
+              </div>
+            </template>
           </UiInput>
         </div>
         <div class="h-full">
@@ -39,12 +43,12 @@
             <Square3Stack3DIcon class="w-6 h-6 dark:fill-grey-600" />
           </UiButton>
         </div>
-        <div class="pl-3 h-full">
-          <ProfileDropdown />
+        <div class="h-full">
+          <ProfileDropdown class="pl-2" />
         </div>
       </div>
     </UiContainer>
-  </div>
+  </header>
 </template>
 
 <style scoped></style>

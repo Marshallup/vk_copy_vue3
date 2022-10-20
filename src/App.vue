@@ -1,7 +1,19 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import { useRoute } from 'vue-router'
+  import DefaultLayout from '@/layouts/DefaultLayout.vue'
+
+  const route = useRoute()
+
+  const layoutComponent = computed(() => {
+    switch (route.meta.layout) {
+      default:
+        return DefaultLayout
+    }
+  })
+</script>
 
 <template>
-  <div class="dark:text-text-regular-dark dark:bg-grey-400 font-sans">
-    <RouterView />
+  <div class="dark:text-grey-100 dark:bg-grey-400 font-sans">
+    <component :is="layoutComponent" />
   </div>
 </template>

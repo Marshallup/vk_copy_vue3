@@ -8,13 +8,18 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     BaseHeader: typeof import('./src/components/BaseHeader.vue')['default']
+    DefaultLayout: typeof import('./src/layouts/DefaultLayout.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
+    Menu: typeof import('./src/components/user/Menu.vue')['default']
+    MenuLeft: typeof import('./src/components/user/MenuLeft.vue')['default']
     ProfileDropdown: typeof import('./src/components/user/ProfileDropdown.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SimplePlayer: typeof import('./src/components/UI/players/SimplePlayer.vue')['default']
+    ThemeDropdown: typeof import('./src/components/system/ThemeDropdown.vue')['default']
     UiButton: typeof import('./src/components/UI/UiButton.vue')['default']
     UiContainer: typeof import('./src/components/UI/UiContainer.vue')['default']
+    UiDropdown: typeof import('./src/components/UI/UiDropdown.vue')['default']
     UiInput: typeof import('./src/components/UI/forms/UiInput.vue')['default']
     VkLogo: typeof import('./src/components/UI/Icons/VkLogo.vue')['default']
   }

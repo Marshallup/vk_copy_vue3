@@ -1,3 +1,5 @@
-import HomePage from '@/pages/HomePage.vue'
+import ProfilePage from '@/pages/ProfilePage.vue'
 
-export const routes = [{ path: '/', component: HomePage }]
+export const routes = [
+  { path: '/', name: 'profilePage', component: ProfilePage },
+]

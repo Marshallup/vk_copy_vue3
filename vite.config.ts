@@ -21,13 +21,14 @@ export default defineConfig({
     }),
     Components({
       dts: true,
+      dirs: ['src/components', 'src/layouts'],
     }),
     AutoImport({
       eslintrc: {
         enabled: true,
       },
       dts: true,
-      imports: ['vue', 'vue-router', 'pinia'],
+      imports: ['vue', 'vue-router', 'pinia', '@vueuse/core'],
     }),
   ],
 })
