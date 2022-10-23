@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <header class="fixed top-0 left-0 w-full dark:bg-grey-300">
+  <header class="fixed top-0 left-0 w-full dark:bg-grey-300 z-10">
     <UiContainer>
       <div class="flex h-header-height">
         <div class="h-full flex">
@@ -27,7 +27,7 @@
           </UiInput>
         </div>
         <div class="h-full">
-          <UiButton>
+          <UiButton full="h" text>
             <div class="w-6 h-6">
               <BellIcon class="fill-transparent dark:stroke-grey-600" />
             </div>
@@ -39,7 +39,7 @@
           </div>
         </div>
         <div class="h-full">
-          <UiButton>
+          <UiButton full="h" text>
             <Square3Stack3DIcon class="w-6 h-6 dark:fill-grey-600" />
           </UiButton>
         </div>

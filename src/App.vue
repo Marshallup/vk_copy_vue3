@@ -13,7 +13,7 @@
 </script>
 
 <template>
-  <div class="dark:text-grey-100 dark:bg-grey-400 font-sans">
+  <div class="dark:text-grey-100 dark:bg-grey-500 font-sans">
     <component :is="layoutComponent" />
   </div>
 </template>

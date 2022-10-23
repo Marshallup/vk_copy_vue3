@@ -1,30 +1,14 @@
-<script setup lang="ts">
-  import { useCounterStore } from '@/stores/counter'
-
-  const counterStore = useCounterStore()
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
-    <div class="flex item-start gap-5">
-      <a href="https://vitejs.dev" target="_blank">
-        <img src="/vite.svg" class="logo" alt="Vite logo" />
-      </a>
-      <a href="https://vuejs.org/" target="_blank">
-        <img
-          src="@/assets/images/icons/vue.svg"
-          class="logo vue"
-          alt="Vue logo"
-        />
-      </a>
-    </div>
-    <div class="text-center mt-10">
-      <div>
-        {{ counterStore.counter }}
+    <ProfileHeader />
 
-        <button @click="counterStore.incCounter">Увеличить счетчик</button>
+    <div class="flex mt-4 gap-x-4">
+      <div class="basis-[550px]">body</div>
+      <div class="grow">
+        <FriendsList />
       </div>
-      <div class="mt-10">content</div>
     </div>
   </div>
 </template>

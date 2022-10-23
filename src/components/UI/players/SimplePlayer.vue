@@ -5,13 +5,13 @@
 <template>
   <div class="h-full flex items-center px-2 dark:text-grey-600">
     <div class="h-full flex items-center gap-x-2">
-      <UiButton class="py-2" icon>
+      <UiButton class="py-2" text icon>
         <ForwardIcon class="w-6 h-6" />
       </UiButton>
-      <UiButton class="py-2" icon>
+      <UiButton class="py-2" text icon>
         <PlayIcon class="w-6 h-6" />
       </UiButton>
-      <UiButton class="py-2" icon>
+      <UiButton class="py-2" text icon>
         <ForwardIcon class="w-6 h-6" />
       </UiButton>
     </div>

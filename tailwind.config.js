@@ -15,12 +15,15 @@ module.exports = {
     extend: {
       colors: {
         'grey-300': '#222222',
+        'grey-350': '#232323',
+        'grey-900': '#242424',
         'grey-400': '#292929',
         'grey-500': '#141414',
         'grey-700': '#424242',
         'grey-100': '#e1e3e6',
         'grey-600': '#939393',
         'sky-300': '#71aaeb',
+        'green-500': '#4bb34b',
         'white-alpha8': colors['white-alpha8'],
         'bg-hover-dark': colors['white-alpha8'],
         'text-regular-dark': '#ffffff',
