@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div class="min-h-screen flex flex-col">
+  <div class="min-h-screen flex flex-col pb-4">
     <BaseHeader />
     <main class="pt-header-height flex-1">
       <UiContainer>

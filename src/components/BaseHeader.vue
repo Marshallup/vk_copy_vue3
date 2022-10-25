@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <header class="fixed top-0 left-0 w-full dark:bg-grey-300 z-10">
+  <header class="fixed top-0 left-0 w-full dark:bg-grey-300 z-50">
     <UiContainer>
       <div class="flex h-header-height">
         <div class="h-full flex">

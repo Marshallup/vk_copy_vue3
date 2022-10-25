@@ -15,6 +15,13 @@ declare module '@vue/runtime-core' {
     Menu: typeof import('./src/components/user/Menu.vue')['default']
     MenuLeft: typeof import('./src/components/user/menu/MenuLeft.vue')['default']
     MenuLeftItem: typeof import('./src/components/user/menu/MenuLeftItem.vue')['default']
+    ModuleTab: typeof import('./src/components/UI/tabs/moduleTabs/ModuleTab.vue')['default']
+    ModuleTabItem: typeof import('./src/components/UI/tabs/moduleTabs/ModuleTabItem.vue')['default']
+    ModuleTabItems: typeof import('./src/components/UI/tabs/moduleTabs/ModuleTabItems.vue')['default']
+    ModuleTabPanel: typeof import('./src/components/UI/tabs/moduleTabs/ModuleTabPanel.vue')['default']
+    ModuleTabs: typeof import('./src/components/UI/tabs/moduleTabs/ModuleTabs.vue')['default']
+    ModuleTabsItems: typeof import('./src/components/UI/tabs/moduleTab/ModuleTabsItems.vue')['default']
+    ModuleTabsPanel: typeof import('./src/components/UI/tabs/moduleTab/ModuleTabsPanel.vue')['default']
     ProfileDropdown: typeof import('./src/components/user/ProfileDropdown.vue')['default']
     ProfileHeader: typeof import('./src/components/user/ProfileHeader.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
@@ -25,6 +32,9 @@ declare module '@vue/runtime-core' {
     UiContainer: typeof import('./src/components/UI/UiContainer.vue')['default']
     UiDropdown: typeof import('./src/components/UI/UiDropdown.vue')['default']
     UiInput: typeof import('./src/components/UI/forms/UiInput.vue')['default']
+    UiModule: typeof import('./src/components/UI/wrappers/UiModule.vue')['default']
+    UserPhoto: typeof import('./src/components/modules/user/photos/UserPhoto.vue')['default']
+    UserPhotos: typeof import('./src/components/modules/user/photos/UserPhotos.vue')['default']
     VkLogo: typeof import('./src/components/UI/Icons/VkLogo.vue')['default']
   }
 }
